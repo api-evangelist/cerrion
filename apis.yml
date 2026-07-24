@@ -1,8 +1,30 @@
 aid: cerrion
 name: Cerrion
-description: 'Cerrion is a company surfaced as a portfolio company of creandum and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Cerrion builds enterprise-grade video AI agents for manufacturing. Its
+  platform connects to existing or provided factory cameras to monitor production lines
+  in real time, using pre-trained visual triggers to automatically detect and respond
+  to quality defects, safety hazards, process deviations, and equipment issues. The
+  closed-loop system can slow or stop machines, raise alarms, and escalate alerts while
+  giving operators root-cause insight, helping manufacturers resolve problems up to
+  50% faster and cut downtime and scrap. Cerrion is deployed in live production across
+  glass, food & beverage, tableware, sawmilling/timber, and CPG environments (customers
+  include Unilever, Riedel, Schott Zwiesel, Stölzle Lausitz, Sisecam, and Verallia).
+  Zurich-based and backed by Creandum, Y Combinator, Goat Capital, 10x Founders, and
+  Session VC. No public developer API, SDKs, or documentation surface was found at the
+  time of enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/cerrion/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/cTLAFlLCNDUmkZN30SuZI9kr7cU.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,16 +33,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai
-apis: []
+- Computer Vision
+- Manufacturing
+- Video Analytics
+- Industrial Automation
+- Quality Assurance
+- Safety Monitoring
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
+- type: DomainSecurity
+  url: security/cerrion-domain-security.yml
 - type: Website
   url: https://www.cerrion.com/
+- type: About
+  url: https://www.cerrion.com/about
+- type: Platform
+  url: https://www.cerrion.com/platform
+- type: Careers
+  url: https://app.dover.com/jobs/work-at-cerrion
+- type: Support
+  url: mailto:info@cerrion.com
+- type: LinkedIn
+  url: https://ch.linkedin.com/company/cerrion
+- type: YouTube
+  url: https://www.youtube.com/channel/UCyY5RkR3_tq_rjW6twEiaOw
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
