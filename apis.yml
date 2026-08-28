@@ -13,6 +13,17 @@ description: 'Cerrion builds enterprise-grade video AI agents for manufacturing.
   Session VC. No public developer API, SDKs, or documentation surface was found at the
   time of enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/cerrion/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
