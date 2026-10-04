@@ -48,7 +48,7 @@ modified: '2026-07-18'
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Manufacturing
 - Video Analytics
 - Industrial Automation
@@ -63,6 +63,7 @@ tags_raw:
 - Industrial Automation
 - Quality Assurance
 - Safety Monitoring
+- Computer-Vision
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
